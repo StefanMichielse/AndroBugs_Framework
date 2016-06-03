@@ -18,7 +18,7 @@ Version: 1.0.0
 
 - Yu-Cheng Lin  (androbugs.framework at gmail.com, @AndroBugs)
 
-## Steup Steps and Usage for Windows
+## Setup Steps and Usage for Windows
 
 **Easy to use for Android developers or hackers on Microsoft Windows: (a) No need to install Python 2.7 (b) No need to install any 3rd-party library (c) No need to install AndroBugs Framework**
 
@@ -30,7 +30,7 @@ Version: 1.0.0
 6. ```androbugs.exe -f [APK file]```
 
 ## Massive Analysis Tool Steup Steps and Usage for Windows
-1. Complete the *Steup Steps and Usage for Windows* first
+1. Complete the *Setup Steps and Usage for Windows* first
 2. Install the Windows version of MongoDB (https://www.mongodb.org/downloads)
 3. Install [PyMongo library](http://api.mongodb.org/python/current/installation.html)
 4. Config your own MongoDB settings: C:\AndroBugs_Framework\androbugs-db.cfg
@@ -56,7 +56,7 @@ python androbugs.py -h
 
 ## Usage of Massive Analysis Tools for Unix/Linux
 
-**Prerequisite: Setup MongoDB and config your own MongoDB settings in "androbugs-db.cfg"**
+**Prerequisite: Setup MongoDB and configure your own MongoDB settings in "androbugs-db.cfg"**
 
 ####To run the massive analysis for AndroBugs Framework:####
 
@@ -107,4 +107,3 @@ python AndroBugs_ReportByVectorKey.py -v WEBVIEW_RCE -l Critical -b 20151112 -t 
 ##Licenses
 
 * AndroBugs Framework is under the license of [GNU GPL v3.0](http://www.gnu.org/licenses/gpl-3.0.txt)
-
